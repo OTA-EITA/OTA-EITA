@@ -7,15 +7,31 @@ Infrastructure / SRE engineer working on Kubernetes platforms, IaC, observabilit
 
 ### 🛠 Projects
 
+すべて Go 製で、テスト・lint・実環境での E2E を CI で回し、アクションは SHA 固定、OpenSSF Scorecard で公開評価しています。
+
+**SRE / Kubernetes**
+
 | Repository | 内容 |
 |---|---|
-| [kube-upgrade-preflight](https://github.com/OTA-EITA/kube-upgrade-preflight) | Kubernetes アップデート前に、作業を止める原因をローリングドレインの dry-run で洗い出す Go 製 CLI |
-| [kube-postcheck](https://github.com/OTA-EITA/kube-postcheck) | クラスタ構築・変更後のヘルスチェックとセキュリティチェックを 1 コマンドで行う Go 製 CLI |
-| [oidc-trust-audit](https://github.com/OTA-EITA/oidc-trust-audit) | GitHub Actions や EKS から OIDC でクラウドに入る信頼設定のミスを検出するセキュリティ監査 CLI（AWS IAM / GCP Workload Identity、SARIF 対応） |
-| [slo-report](https://github.com/OTA-EITA/slo-report) | SLO 定義から Prometheus / VictoriaMetrics のバーンレートアラートを生成し、エラーバジェットのレポートを作る CLI |
-| [sre-demo](https://github.com/OTA-EITA/sre-demo) | SLO・エラーバジェット・可観測性・カオスエンジニアリングを手を動かして学べる SRE 講義用デモキット |
+| [kube-upgrade-preflight](https://github.com/OTA-EITA/kube-upgrade-preflight) | アップデート前に、作業を止める原因をローリングドレインの dry-run で洗い出す |
+| [kube-postcheck](https://github.com/OTA-EITA/kube-postcheck) | クラスタ構築・変更後のヘルスチェックとセキュリティチェックを 1 コマンドで |
+| [kube-readiness](https://github.com/OTA-EITA/kube-readiness) | ワークロードを信頼性・効率・セキュリティで採点（Polaris 風、マニフェストとクラスタの両方） |
+| [slo-report](https://github.com/OTA-EITA/slo-report) | SLO 定義からバーンレートアラートを生成し、エラーバジェットのレポートを作る |
+
+**Security / DevSecOps**
+
+| Repository | 内容 |
+|---|---|
+| [oidc-trust-audit](https://github.com/OTA-EITA/oidc-trust-audit) | GitHub Actions や EKS から OIDC でクラウドに入る信頼設定のミスを検出（AWS IAM / GCP WIF、SARIF） |
+| [tf-plan-guard](https://github.com/OTA-EITA/tf-plan-guard) | terraform plan から、データ消失・公開・IAM の `*`・監査ログ停止などの危険な変更を止める |
+| [depbot](https://github.com/OTA-EITA/depbot) | Dependabot 風の依存更新 PR ボット（Go / GitHub Actions / Dockerfile）と Actions の SHA 固定 |
+
+**Other**
+
+| Repository | 内容 |
+|---|---|
+| [sre-demo](https://github.com/OTA-EITA/sre-demo) | SLO・エラーバジェット・可観測性・カオスエンジニアリングを学べる SRE 講義用デモキット |
 | [oss-orbit-tracker](https://github.com/OTA-EITA/oss-orbit-tracker) | 世界中の OSS トレンドを毎日収集・可視化するオープンデータプロジェクト |
-| [cloud-status-monitor](https://github.com/OTA-EITA/cloud-status-monitor) | AWS・GitHub・GCP の稼働状況を毎日取得して履歴に残す監視ツール |
 
 ### 🧰 Skills
 
