@@ -11,6 +11,8 @@ Infrastructure / SRE engineer working on Kubernetes platforms, IaC, observabilit
 |---|---|
 | [kube-upgrade-preflight](https://github.com/OTA-EITA/kube-upgrade-preflight) | Kubernetes アップデート前に、作業を止める原因をローリングドレインの dry-run で洗い出す Go 製 CLI |
 | [kube-postcheck](https://github.com/OTA-EITA/kube-postcheck) | クラスタ構築・変更後のヘルスチェックとセキュリティチェックを 1 コマンドで行う Go 製 CLI |
+| [oidc-trust-audit](https://github.com/OTA-EITA/oidc-trust-audit) | GitHub Actions や EKS から OIDC でクラウドに入る信頼設定のミスを検出するセキュリティ監査 CLI（AWS IAM / GCP Workload Identity、SARIF 対応） |
+| [slo-report](https://github.com/OTA-EITA/slo-report) | SLO 定義から Prometheus / VictoriaMetrics のバーンレートアラートを生成し、エラーバジェットのレポートを作る CLI |
 | [sre-demo](https://github.com/OTA-EITA/sre-demo) | SLO・エラーバジェット・可観測性・カオスエンジニアリングを手を動かして学べる SRE 講義用デモキット |
 | [oss-orbit-tracker](https://github.com/OTA-EITA/oss-orbit-tracker) | 世界中の OSS トレンドを毎日収集・可視化するオープンデータプロジェクト |
 | [cloud-status-monitor](https://github.com/OTA-EITA/cloud-status-monitor) | AWS・GitHub・GCP の稼働状況を毎日取得して履歴に残す監視ツール |
