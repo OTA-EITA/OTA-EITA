@@ -7,7 +7,7 @@ Infrastructure / SRE engineer working on Kubernetes platforms, IaC, observabilit
 
 ### 🛠 Projects
 
-すべて Go 製で、テスト・lint・実環境での E2E を CI で回し、アクションは SHA 固定、OpenSSF Scorecard で公開評価しています。
+Go と TypeScript で作り、テスト・lint・実環境での E2E を CI で回し、アクションは SHA 固定、OpenSSF Scorecard で公開評価しています。
 
 **SRE / Kubernetes**
 
@@ -17,6 +17,7 @@ Infrastructure / SRE engineer working on Kubernetes platforms, IaC, observabilit
 | [kube-postcheck](https://github.com/OTA-EITA/kube-postcheck) | クラスタ構築・変更後のヘルスチェックとセキュリティチェックを 1 コマンドで |
 | [kube-readiness](https://github.com/OTA-EITA/kube-readiness) | ワークロードを信頼性・効率・セキュリティで採点（Polaris 風、マニフェストとクラスタの両方） |
 | [slo-report](https://github.com/OTA-EITA/slo-report) | SLO 定義からバーンレートアラートを生成し、エラーバジェットのレポートを作る |
+| [slo-dashboard](https://github.com/OTA-EITA/slo-dashboard) | slo-report の結果を可視化する React + TypeScript 製ダッシュボード（[デモ](https://ota-eita.github.io/slo-dashboard/)） |
 
 **Security / DevSecOps**
 
@@ -25,6 +26,7 @@ Infrastructure / SRE engineer working on Kubernetes platforms, IaC, observabilit
 | [oidc-trust-audit](https://github.com/OTA-EITA/oidc-trust-audit) | GitHub Actions や EKS から OIDC でクラウドに入る信頼設定のミスを検出（AWS IAM / GCP WIF、SARIF） |
 | [tf-plan-guard](https://github.com/OTA-EITA/tf-plan-guard) | terraform plan から、データ消失・公開・IAM の `*`・監査ログ停止などの危険な変更を止める |
 | [depbot](https://github.com/OTA-EITA/depbot) | Dependabot 風の依存更新 PR ボット（Go / GitHub Actions / Dockerfile）と Actions の SHA 固定 |
+| [gha-guard](https://github.com/OTA-EITA/gha-guard) | GitHub Actions のスクリプト注入・pwn request・過剰な権限を検出して自動修正する TypeScript 製 CLI / Action |
 
 **Other**
 
@@ -40,7 +42,7 @@ Infrastructure / SRE engineer working on Kubernetes platforms, IaC, observabilit
 - **IaC / CI/CD**: Terraform、AWS CDK、CloudFormation、Ansible、GitHub Actions
 - **Observability**: Datadog、Grafana、Prometheus、VictoriaMetrics、Loki、New Relic、Sentry、PagerDuty
 - **Security**: IAM / RBAC 設計、Teleport、OPA Gatekeeper、Trivy、AWS WAF、sops + age、Workload Identity Federation、CIS Benchmark に基づく監査
-- **Languages**: Go、Python、TypeScript、Java（Spring Boot）、PHP（Laravel）、Shell
+- **Languages**: Go、TypeScript（React / Node.js）、Python、Java（Spring Boot）、PHP（Laravel）、Shell
 
 ### 📜 Certifications
 
