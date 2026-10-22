@@ -27,6 +27,7 @@ Go と TypeScript で作り、テスト・lint・実環境での E2E を CI で�
 | [tf-plan-guard](https://github.com/OTA-EITA/tf-plan-guard) | terraform plan から、データ消失・公開・IAM の `*`・監査ログ停止などの危険な変更を止める |
 | [depbot](https://github.com/OTA-EITA/depbot) | Dependabot 風の依存更新 PR ボット（Go / GitHub Actions / Dockerfile）と Actions の SHA 固定 |
 | [gha-guard](https://github.com/OTA-EITA/gha-guard) | GitHub Actions のスクリプト注入・pwn request・過剰な権限を検出して自動修正する TypeScript 製 CLI / Action |
+| [lockfile-guard](https://github.com/OTA-EITA/lockfile-guard) | package-lock.json から npm のサプライチェーン攻撃の入口（インストールスクリプト・公開直後の版・タイポスクワットなど）を install 前に検出する TypeScript 製 CLI / Action |
 
 **Other**
 
