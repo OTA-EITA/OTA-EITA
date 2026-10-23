@@ -18,6 +18,7 @@ Go と TypeScript で作り、テスト・lint・実環境での E2E を CI で�
 | [kube-readiness](https://github.com/OTA-EITA/kube-readiness) | ワークロードを信頼性・効率・セキュリティで採点（Polaris 風、マニフェストとクラスタの両方） |
 | [slo-report](https://github.com/OTA-EITA/slo-report) | SLO 定義からバーンレートアラートを生成し、エラーバジェットのレポートを作る |
 | [slo-dashboard](https://github.com/OTA-EITA/slo-dashboard) | slo-report の結果を可視化する React + TypeScript 製ダッシュボード（[デモ](https://ota-eita.github.io/slo-dashboard/)） |
+| [alert-router](https://github.com/OTA-EITA/alert-router) | Alertmanager の通知をラベルで Slack に振り分け、重複排除・Runbook リンク・dry-run を備えた TypeScript（Hono）製サービス |
 
 **Security / DevSecOps**
 
