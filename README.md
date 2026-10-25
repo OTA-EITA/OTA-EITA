@@ -31,6 +31,7 @@ Go と TypeScript で作り、テスト・lint・実環境での E2E を CI で�
 | [gha-guard](https://github.com/OTA-EITA/gha-guard) | GitHub Actions のスクリプト注入・pwn request・過剰な権限を検出して自動修正する TypeScript 製 CLI / Action |
 | [lockfile-guard](https://github.com/OTA-EITA/lockfile-guard) | package-lock.json から npm のサプライチェーン攻撃の入口（インストールスクリプト・公開直後の版・タイポスクワットなど）を install 前に検出する TypeScript 製 CLI / Action |
 | [pr-blast-radius](https://github.com/OTA-EITA/pr-blast-radius) | PR が本番のどこに影響するか（Terraform・Kubernetes・CI・IAM・DB）をコメントとラベルで示す GitHub Action。依存ゼロの JavaScript（[デモ PR](https://github.com/OTA-EITA/pr-blast-radius/pull/1)） |
+| [agent-config-audit](https://github.com/OTA-EITA/agent-config-audit) | Claude Code・Cursor・VS Code の設定と MCP サーバーから、平文の秘密情報・バージョン未固定の MCP パッケージ・権限の全開放を見つける TypeScript 製ツール（秘密情報は伏せ字で表示） |
 
 **Other**
 
