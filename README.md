@@ -34,6 +34,7 @@ Go と TypeScript で作り、テスト・lint・実環境での E2E を CI で�
 | [pr-blast-radius](https://github.com/OTA-EITA/pr-blast-radius) | PR が本番のどこに影響するか（Terraform・Kubernetes・CI・IAM・DB）をコメントとラベルで示す GitHub Action。依存ゼロの JavaScript（[デモ PR](https://github.com/OTA-EITA/pr-blast-radius/pull/1)） |
 | [agent-config-audit](https://github.com/OTA-EITA/agent-config-audit) | Claude Code・Cursor・VS Code の設定と MCP サーバーから、平文の秘密情報・バージョン未固定の MCP パッケージ・権限の全開放を見つける TypeScript 製ツール（秘密情報は伏せ字で表示） |
 | [composer-guard](https://github.com/OTA-EITA/composer-guard) | PHP（Composer）のサプライチェーン対策。公開直後の版・コードを実行できるプラグインの許可・平文 HTTP・ブランチ固定を composer.lock から見つける PHP 製ツール（依存ゼロ、PHPStan max） |
+| [gemlock-guard](https://github.com/OTA-EITA/gemlock-guard) | Ruby（Bundler）のサプライチェーン対策。公開直後の版とネイティブ拡張・ブランチ追従の git gem・平文 HTTP・チェックサム欠落・タイポスクワットを Gemfile.lock から見つける Ruby 製ツール（依存ゼロ、Ruby 3.2〜4.0） |
 
 **Other**
 
