@@ -19,6 +19,7 @@ Go と TypeScript で作り、テスト・lint・実環境での E2E を CI で�
 | [slo-report](https://github.com/OTA-EITA/slo-report) | SLO 定義からバーンレートアラートを生成し、エラーバジェットのレポートを作る |
 | [slo-dashboard](https://github.com/OTA-EITA/slo-dashboard) | slo-report の結果を可視化する React + TypeScript 製ダッシュボード（[デモ](https://ota-eita.github.io/slo-dashboard/)） |
 | [alert-router](https://github.com/OTA-EITA/alert-router) | Alertmanager の通知をラベルで Slack に振り分け、重複排除・Runbook リンク・dry-run を備えた TypeScript（Hono）製サービス |
+| [promrule-lint](https://github.com/OTA-EITA/promrule-lint) | Prometheus のアラートルールから、フラッピングしやすいアラート・発火しない短すぎる `rate()`・Runbook 漏れなどを見つける TypeScript 製リンター（PrometheusRule 対応、kube-prometheus で検証） |
 
 **Security / DevSecOps**
 
@@ -29,6 +30,7 @@ Go と TypeScript で作り、テスト・lint・実環境での E2E を CI で�
 | [depbot](https://github.com/OTA-EITA/depbot) | Dependabot 風の依存更新 PR ボット（Go / GitHub Actions / Dockerfile）と Actions の SHA 固定 |
 | [gha-guard](https://github.com/OTA-EITA/gha-guard) | GitHub Actions のスクリプト注入・pwn request・過剰な権限を検出して自動修正する TypeScript 製 CLI / Action |
 | [lockfile-guard](https://github.com/OTA-EITA/lockfile-guard) | package-lock.json から npm のサプライチェーン攻撃の入口（インストールスクリプト・公開直後の版・タイポスクワットなど）を install 前に検出する TypeScript 製 CLI / Action |
+| [pr-blast-radius](https://github.com/OTA-EITA/pr-blast-radius) | PR が本番のどこに影響するか（Terraform・Kubernetes・CI・IAM・DB）をコメントとラベルで示す GitHub Action。依存ゼロの JavaScript（[デモ PR](https://github.com/OTA-EITA/pr-blast-radius/pull/1)） |
 
 **Other**
 
