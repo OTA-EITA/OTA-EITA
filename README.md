@@ -39,8 +39,8 @@ Go と TypeScript で作り、テスト・lint・実環境での E2E を CI で�
 **Other**
 
 | Repository | 内容 |
-| [care-finder](https://github.com/OTA-EITA/care-finder) | 放課後等デイサービス・児童発達支援の検索とおすすめ。厚労省のオープンデータを取り込む Rails 8.1 アプリ（MySQL ngram / Elasticsearch、React、RSpec、AWS Fargate の Terraform） |
 |---|---|
+| [care-finder](https://github.com/OTA-EITA/care-finder) | 放課後等デイサービス・児童発達支援の検索とおすすめ。厚労省のオープンデータを取り込む Rails 8.1 アプリ（MySQL ngram / Elasticsearch、React、RSpec、AWS Fargate の Terraform） |
 | [sre-demo](https://github.com/OTA-EITA/sre-demo) | SLO・エラーバジェット・可観測性・カオスエンジニアリングを学べる SRE 講義用デモキット |
 | [oss-orbit-tracker](https://github.com/OTA-EITA/oss-orbit-tracker) | 世界中の OSS トレンドを毎日収集・可視化するオープンデータプロジェクト |
 
